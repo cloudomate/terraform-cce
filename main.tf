@@ -7,11 +7,6 @@ terraform {
   }
 }
 
-provider "g42cloud" {
-  # Configuration options
- project_name="ae-ad-1_Etisalat"
-}
-
 
 data "g42cloud_availability_zones" "myaz" {}
 
